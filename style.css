@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    font-family: 'Prosto One', cursive;
+  }
+  
+  .image1 {
+    background-image: url(austin-neill-3vQmhZQpDiY-unsplash.jpg);
+  }
+  .image2{
+      background-image: url(harley-davidson-HYjJ1_AZnqw-unsplash.jpg);
+  }
+  .image3{
+      background-image: url(harley-davidson-2S4FDh3AtGw-unsplash.jpg);
+  }
+  .image4{
+      background-image: url(Terminator\ 2_\ Judgment\ Day\ HD\ Wallpaper.jpeg);
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 40%;
+      background-color:black
+  }
+  .image {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    background-attachment: fixed;
+  }
+  .heads {
+    border-radius: 30px 400px 30px 0px;
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    font-size: 3rem;
+    outline: 0.5rem solid rgb(204, 125, 14);
+    letter-spacing: 0.4rem;
+    outline-offset: 1rem;
+    opacity: 0.8;
+  }
+  .section {
+    padding: 3rem 5rem;
+    line-height: 2rem;
+    font-size: larger;
+  }
+  .par1 {
+    background-color: rgb(204, 125, 14);
+  }
+  .logo{
+      width: 30%;
+      opacity: 0.6;
+  }
+  .head2 {
+      width: 60%;
+      font-size: 40px;
+      opacity: 0.7;
+  }
+  .head3{
+      width: 40%;
+      font-size: 20px;
+      opacity: 0.7;
+  }
+  
+  .twitter{
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      font-size: 2rem;
+      background-color:rgb(204, 125, 14);
+      width:4rem;
+      height: 4rem;
+      text-align: center;
+      border-radius: 50%;
+      padding-top: .6rem;
+  }
+  .twitter:hover{
+      cursor: pointer;
+      color: white;
+      outline: 2px solid orange;
+      outline-offset: 1rem;
+  }
